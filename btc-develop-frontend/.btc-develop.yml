@@ -18,4 +18,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist/btc-develop
   on:
-    branch: master
+    branch: main
