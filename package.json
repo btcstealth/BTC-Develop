@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:prod": "ng build --prod --base-href https://btcstealth.github.io/BTC-develop/",
+    "build:prod": "ng build --prod --base-href https://btcstealth.github.io/BTC-Develop/",
     "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
