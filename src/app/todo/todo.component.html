@@ -1,0 +1,21 @@
+<h1>My goal list</h1>
+<div class="table/responsive">
+  <table mdbTable class="table">
+    <thead>
+    <tr>
+      <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+    </tr>
+    </thead>
+    <tbody>  
+    <tr mdbTableCol *ngFor="let el of todoList" style="background-color: green;">
+      <th scope="row">{{el.id}}</th>
+      <td>{{el.goal}}</td>
+      <td *ngIf="el.description">{{el.description}}</td>
+      <td *ngIf="el.value.description && false">{{el.value.description}}</td>
+      <td>{{el.value.rating}}</td>
+      <td>{{el.cost.rating}}</td>
+      <td>{{el.timeframe}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,17 @@
+<div>
+  <p>income!</p>
+
+
+  <p>Yearly dividends: <strong> <span style="text-decoration: underline; ">{{ yearlyDividends }}</span></strong> kr </p>
+  <p>Savings amount: {{ totalSavings }} kr</p>
+  <p>Invested amount: {{ totalInvested }} kr</p>
+  <p>Invested ratio: {{ totalInvested / (totalSavings + totalInvested) }} kr</p>
+
+  <google-chart
+    [type]="myType"
+    [data]="data"
+    [width]="width"
+    [height]="height"
+  >
+  </google-chart>
+</div>
