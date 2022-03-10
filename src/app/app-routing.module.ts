@@ -8,10 +8,10 @@ import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'todo', component: TodoComponent},
-  {path: 'companies', component: CompaniesComponent},
-  {path: 'countries', component: CountriesComponent},
-  {path: 'income', component: IncomeComponent},
+  {path: 'BTC-Develop/todo', component: TodoComponent},
+  {path: 'BTC-Develop/companies', component: CompaniesComponent},
+  {path: 'BTC-Develop/countries', component: CountriesComponent},
+  {path: 'BTC-Develop/income', component: IncomeComponent},
 ];
 
 @NgModule({
